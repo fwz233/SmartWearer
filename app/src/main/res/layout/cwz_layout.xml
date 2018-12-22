@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#673ab7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cwzbt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:padding="16dp"
+            android:text="长文字"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cwzdg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="你的智能穿戴可以显示几条通知"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:minLines="1"
+            android:digits="0123456789"
+            android:singleLine="false" />
+
+        <EditText
+            android:id="@+id/cwzzl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="你的智能穿戴每条通知可以显示几个字"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:minLines="1"
+            android:digits="0123456789"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cwzxx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="请输入文字内容"
+        android:linksClickable="false"
+        android:maxLines="16"
+        android:minLines="9"
+        android:singleLine="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cwzxxqx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="取消"
+            android:textColor="#9f75cd" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/cwzxxfs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fs" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
