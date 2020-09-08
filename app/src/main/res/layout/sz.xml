@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="玩转智能穿戴" />
+                android:text="智享穿戴" />
 
             <Button
                 android:id="@+id/tzmcbc"
@@ -93,10 +93,6 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/mxdb_2" />
 
-            <tz.xmsh.fwz.com.shtz.WaterWaveView2
-                android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:orientation="vertical"/>
         </LinearLayout>
     </ScrollView>
 

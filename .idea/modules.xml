@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WatchMaster.iml" filepath="$PROJECT_DIR$/WatchMaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shtz.iml" filepath="$PROJECT_DIR$/shtz.iml" />
     </modules>
   </component>
 </project>
